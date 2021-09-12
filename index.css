@@ -1,0 +1,76 @@
+.btn-blue {
+  border: none;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  padding: 10px 16px;
+  margin: 0 4px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.num-child {
+  margin: 12px;
+  padding: 12px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.style-child {
+  font-size: 16px;
+}
+.is-check {
+  border-radius: 50% !important;
+  border: 2px solid rgb(187, 187, 1) !important;
+}
+.screen {
+  position: relative;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px solid #333;
+  margin-right: 20px;
+}
+.page {
+  display: flex;
+  margin: 40px;
+}
+.btn-blue-empty {
+  margin: 0 4px;
+  border: 1px solid blue;
+  background-color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+.text-scores {
+  color: blue;
+  font-size: 14px;
+}
+.scores {
+  color: red;
+  font-size: 18px;
+}
+.board-child {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.countdown {
+  margin-left: 20px;
+}
+.hide {
+  display: none;
+}
+.btn-disable {
+  background-color: #333;
+  cursor: default;
+}
+.overwrite {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
